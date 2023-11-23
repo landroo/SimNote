@@ -1,0 +1,10 @@
+{
+	"name":"rectangle",
+	"lineSize":"5",
+	"color_fill1":"1426096128",
+	"color_fill2":"1426096128",
+	"color_line":"-16711936",
+	"lineMode":"1",
+	"lineType":"0",
+	"points":"0.0,0.0;100.0,0.0;100.0,100.0;0.0,100.0;"
+}
