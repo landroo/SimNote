@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/properties"
+        android:title="@string/menu_settings"
+     	android:titleCondensed="@string/menu_settings"/>
+    <item
+        android:id="@+id/menu_append"
+        android:icon="@drawable/load"
+        android:title="@string/menu_append"
+        android:titleCondensed="@string/menu_append"/>
+    <item
+        android:id="@+id/menu_export"
+        android:icon="@drawable/export"
+        android:title="@string/menu_export"
+        android:titleCondensed="@string/menu_export"/>
+    <item
+        android:id="@+id/menu_new"
+        android:icon="@drawable/newitem"
+        android:title="@string/menu_new"
+        android:titleCondensed="@string/menu_new"/>
+    <item
+        android:id="@+id/menu_list"
+        android:icon="@drawable/userlist"
+        android:title="@string/menu_list"
+        android:titleCondensed="@string/menu_list"/>
+    <item
+        android:id="@+id/menu_login"
+        android:icon="@drawable/login"
+        android:title="@string/menu_login"
+        android:titleCondensed="@string/menu_login"/>
+    
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/menu_logout"
+        android:titleCondensed="@string/menu_logout"/>
+
+</menu>

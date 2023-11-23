@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/filelist"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dp"
+        android:layout_weight="10"
+        android:background="@drawable/btn_states"
+        android:divider="#00000000"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/file_dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_states"
+            android:src="@drawable/fileback"
+            android:contentDescription="@string/hello_world" />
+        
+        <ImageButton
+            android:id="@+id/file_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_states"
+            android:src="@drawable/fileok"
+            android:contentDescription="@string/hello_world" />
+        
+    </LinearLayout>
+
+</LinearLayout>

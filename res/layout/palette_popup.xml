@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <org.landroo.tools.PaletteView
+        android:id="@+id/color_palette"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_states"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/color_red"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:text="@string/color_red"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12sp" />
+
+        <SeekBar
+            android:id="@+id/color_red_seekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:max="255"
+            android:progressDrawable="@drawable/progress" />
+
+        <TextView
+            android:id="@+id/color_green"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:text="@string/color_green"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12sp" />
+
+        <SeekBar
+            android:id="@+id/color_green_seekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:max="255"
+            android:progressDrawable="@drawable/progress" />
+
+        <TextView
+            android:id="@+id/color_blue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:text="@string/color_blue"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12sp" />
+
+        <SeekBar
+            android:id="@+id/color_blue_seekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:max="255"
+            android:progressDrawable="@drawable/progress" />
+
+        <TextView
+            android:id="@+id/color_alpha"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:text="@string/alpha"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12sp" />
+
+        <SeekBar
+            android:id="@+id/color_alpha_seekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:max="255"
+            android:progressDrawable="@drawable/progress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/color_dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_states"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/paletteback" />
+    </LinearLayout>
+
+</LinearLayout>

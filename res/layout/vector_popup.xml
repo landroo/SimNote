@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/vectorlist"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dp"
+        android:layout_weight="10"
+        android:background="@drawable/btn_states"
+        android:divider="#00000000"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/vector_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_states"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/circle" />
+
+        <ImageButton
+            android:id="@+id/vector_square"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_states"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/square" />
+        
+        <ImageButton
+            android:id="@+id/vector_capsule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_states"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/capsule" />
+        
+        <ImageButton
+            android:id="@+id/vector_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_states"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/arrow" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_states"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/vector_density_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/density"
+            android:textColor="#FFFFFFFF" />
+
+        <SeekBar
+            android:id="@+id/density_seek_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="72"
+            android:progressDrawable="@drawable/polyprogress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/vector_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_states"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/vectback" />
+
+        <ImageButton
+            android:id="@+id/vector_folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_states"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/vectorfolder" />
+    </LinearLayout>
+
+</LinearLayout>

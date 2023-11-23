@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="50"
+        android:background="@drawable/btn_states"
+        android:ems="10"
+        android:maxLength="128"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="#FFF76D3C" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/labelDismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_states"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/listback" />
+
+        <ImageButton
+            android:id="@+id/labelOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_states"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/userlistok" />
+    </LinearLayout>
+
+</LinearLayout>

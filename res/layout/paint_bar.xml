@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/paintScrollView"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" >
+
+	<LinearLayout
+		android:id="@+id/leftview_paint"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:paddingRight="5dp"
+		android:visibility="visible" >
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="5dp"
+			android:orientation="vertical" >
+
+			<ImageButton
+				android:id="@+id/paintUndoBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:background="@drawable/btn_states"
+				android:contentDescription="@string/hello_world"
+				android:src="@drawable/paintundo" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:background="@drawable/btn_states"
+			android:gravity="center"
+			android:orientation="vertical"
+			android:padding="5dp" >
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dip"
+				android:layout_marginRight="5dip"
+				android:text="@string/line_size"
+				android:textColor="#FFFFFFFF" />
+
+			<SeekBar
+				android:id="@+id/paintlinesize_seekBar"
+				android:layout_width="fill_parent"
+				android:layout_height="0dp"
+				android:layout_marginLeft="5dip"
+				android:layout_marginRight="5dip"
+				android:layout_weight="10"
+				android:max="50"
+				android:progressDrawable="@drawable/paintprogress" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="5dp"
+			android:orientation="vertical" >
+
+			<ImageButton
+				android:id="@+id/paintPaletteBtn1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:background="@drawable/btn_states"
+				android:contentDescription="@string/hello_world"
+				android:src="@drawable/paintpalette1" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="5dp"
+			android:orientation="vertical" >
+
+			<ImageButton
+				android:id="@+id/paintPaletteBtn2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:background="@drawable/btn_states"
+				android:contentDescription="@string/hello_world"
+				android:src="@drawable/paintpalette2" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="5dp"
+			android:orientation="vertical" >
+
+			<ImageButton
+				android:id="@+id/paintFillBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:background="@drawable/btn_states"
+				android:contentDescription="@string/hello_world"
+				android:src="@drawable/fill" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="5dp"
+			android:orientation="vertical" >
+
+			<ImageButton
+				android:id="@+id/paintEmbossBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:background="@drawable/btn_states"
+				android:contentDescription="@string/hello_world"
+				android:src="@drawable/emboss" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="5dp"
+			android:orientation="vertical" >
+
+			<ImageButton
+				android:id="@+id/paintBlurBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:background="@drawable/btn_states"
+				android:contentDescription="@string/hello_world"
+				android:src="@drawable/blur" />
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="5dp"
+			android:orientation="vertical" >
+
+			<ImageButton
+				android:id="@+id/paintDrawBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:background="@drawable/btn_states"
+				android:contentDescription="@string/hello_world"
+				android:src="@drawable/draw" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="5dp"
+			android:orientation="vertical" >
+
+			<ImageButton
+				android:id="@+id/paintEraseBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:background="@drawable/btn_states"
+				android:contentDescription="@string/hello_world"
+				android:src="@drawable/erase" />
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="5dp"
+			android:orientation="vertical" >
+
+			<ImageButton
+				android:id="@+id/paintSaveBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:background="@drawable/btn_states"
+				android:contentDescription="@string/hello_world"
+				android:src="@drawable/paintsave" />
+		</LinearLayout>
+				
+
+	</LinearLayout>
+</ScrollView>

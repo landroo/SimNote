@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/fontimage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_states"
+        android:contentDescription="@string/hello_world" />
+
+    <ListView
+        android:id="@+id/font_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginTop="5dp"
+        android:layout_weight="10"
+        android:background="@drawable/btn_states"
+        android:divider="#00000000"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_states"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/fontsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/fontsize"
+            android:textColor="#FFFFFFFF" />
+
+        <SeekBar
+            android:id="@+id/font_size_seek_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="150"
+            android:progressDrawable="@drawable/textprogress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_states"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/font_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/bold" />
+
+        <ImageButton
+            android:id="@+id/font_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/italic" />
+
+        <ImageButton
+            android:id="@+id/font_fill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/stroke" />
+
+        <ImageButton
+            android:id="@+id/font_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/shadow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/font_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_states"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/textback" />
+
+        <ImageButton
+            android:id="@+id/font_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_states"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/accept" />
+
+        <ImageButton
+            android:id="@+id/font_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_states"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/textpalette" />
+    </LinearLayout>
+
+</LinearLayout>

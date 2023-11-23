@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="picture_folder_names">
+        <item>Photos</item>
+        <item>Cliparts</item>
+        <item>Selected folder</item>
+        <item>Textures</item>
+        <item>Chess</item>
+    </string-array>
+    <string-array name="picture_folders">
+        <item>DCIM/Camera</item>
+        <item>/clipart</item>
+        <item></item>
+        <item>/textures</item>
+        <item>/chess</item>
+    </string-array>
+    <string-array name="font_names">
+        <item>Monospace</item>
+        <item>Sans</item>
+        <item>Serif</item>
+    </string-array>
+    <string-array name="toolbar_help">
+        <item>Select</item>
+        <item>Move</item>
+        <item>Rotate</item>
+        <item>Zoom</item>
+        <item>Resize</item>
+        <item>Scale</item>
+        <item>Picture loader</item>
+        <item>Text tool</item>
+        <item>Polygon tool</item>
+        <item>Hand draw tool</item>
+        <item>Vector loader</item>
+        <item>Folder</item>
+        <item>Link</item>
+        <item>Background loader</item>
+        <item>Photo</item>
+        <item>Help</item>
+        <item>Setting</item>
+        <item>Setting</item>
+        <item>Append note</item>
+        <item>Export to html</item>
+        <item>New</item>
+        <item>Partners</item>
+        <item>Login/Logout</item>
+    </string-array>
+    <string-array name="toolbar_helptext">
+        <item>The item is Selected for modification.</item>
+        <item>The item is in Move mode. It can be moved to another place.</item>
+        <item>The item is in Rotate mode. It can be freely rotated.</item>
+        <item>The item is in Zoom mode. It can be zoomed half and double size.</item>
+        <item>The item is in Resize mode. It can be freely resized.</item>
+        <item>The item is in Scale mode. It can be freely scaled.</item>
+        <item>By select this tool you can insert a picture from a selected folder.</item>
+        <item>You can add text to the document. You can set the format of the text.</item>
+        <item>You can add vector graphic, line or polygon to the document.</item>
+        <item>You can draw a simple graphics by your finger and add it to the document.</item>
+        <item>Choise form some pre created vector graphic.</item>
+        <item>Select a folder for your data.</item>
+        <item>This tool Link two item. These items move together, and log press this item show the lined item.</item>
+        <item>Set the bakground texture or color of the document.</item>
+        <item>You can make a new photo and to the document.</item>
+        <item>Show the help window.</item>
+        <item>Go to the menu, to set some properties.</item>
+        <item>Set the properties of the application.</item>
+        <item>Append selected note to the actual.</item>
+        <item>Export document to html format.</item>
+        <item>Save the curren document and start a new one.</item>
+        <item>List the partners logged in.</item>
+        <item>Login or Logout to the NoteServer.</item>
+    </string-array>
+    <string-array name="toolbar_helpid">
+        <item>sel_select</item>
+        <item>sel_move</item>
+        <item>sel_rotate</item>
+        <item>sel_zoom</item>
+        <item>sel_resize</item>
+        <item>sel_scale</item>
+        <item>picture</item>
+        <item>text</item>
+        <item>polygon</item>
+        <item>draw</item>
+        <item>vector</item>
+        <item>filefolder</item>
+        <item>link</item>
+        <item>paper</item>
+        <item>camera</item>
+        <item>help</item>
+        <item>settings</item>
+        <item>properties</item>
+        <item>load</item>
+        <item>export</item>
+        <item>newitem</item>
+        <item>userlist</item>
+        <item>login</item>
+    </string-array>
+    <string-array name="maintool_help">
+        <item>Item info</item>
+        <item>Item alpha</item>
+        <item>Send to back</item>
+        <item>Copy item</item>
+        <item>Delete item</item>
+        <item>Set label</item>
+        <item>Set Color</item>
+        <item>Item alpha</item>
+        <item>Set frame</item>
+        <item>Set Strech mode</item>
+        <item>Set item satets</item>
+    </string-array>
+    <string-array name="maintool_helptext">
+        <item>Some information of the selected item.</item>
+        <item>Set item opacity.</item>
+        <item>Send selected item to back. Change visibility order.</item>
+        <item>Create a copy of the selected item.</item>
+        <item>Delete selected item.</item>
+        <item>Set label or weblink to the item.</item>
+        <item>Set the color of the selected item</item>
+        <item>Set the opacity of the selected item.</item>
+        <item>Draw frame around the selected item with different style.</item>
+        <item>Set item into Strech mode.</item>
+        <item>Set item edit satets. Turn on or off rotation, zoom or resize.</item>
+	</string-array>
+    <string-array name="maintool_helpid">
+        <item>info</item>
+        <item>slider</item>
+        <item>send_back</item>
+        <item>copy</item>
+        <item>delete</item>
+        <item>label</item>
+        <item>pictpalette1</item>
+        <item>alpha</item>
+        <item>frame</item>
+        <item>zoom</item>
+        <item>state</item>
+    </string-array>
+    <string-array name="polytool_help">
+        <item>Undo</item>
+        <item>Delete</item>
+        <item>Polygon</item>
+        <item>Line</item>
+        <item>Line size</item>
+        <item>Line type</item>
+        <item>Start Back Color</item>
+        <item>End Back Color</item>
+        <item>Line Color</item>
+        <item>Save item</item>
+        <item>Pattern</item>
+    </string-array>
+    <string-array name="polytool_helptext">
+        <item>Undo last action.</item>
+        <item>Delete selected point.</item>
+        <item>Fill the polygon.</item>
+        <item>Select line mode.</item>
+        <item>Set the thickness of the line.</item>
+        <item>Set line style, dotted, dashed etc.</item>
+        <item>Set the start color of the background.</item>
+        <item>Set the end color of the background.</item>
+        <item>Set the line color.</item>
+        <item>Save the selected item to the vector folder.</item>
+        <item>Set the texture of the polygon.</item>
+    </string-array>
+    <string-array name="polytool_helpid">
+        <item>vectundo</item>
+        <item>vectdelete</item>
+        <item>polygon</item>
+        <item>polyline</item>
+        <item>sliderp</item>
+        <item>line_type</item>
+        <item>vectpalette1</item>
+        <item>vectpalette1</item>
+        <item>vectpalette2</item>
+        <item>vectorsave</item>
+        <item>texture</item>
+    </string-array>
+    <string-array name="handtool_help">
+        <item>Undo</item>
+        <item>Line size</item>
+        <item>Background color</item>
+        <item>Line color</item>
+        <item>Fill tool</item>
+        <item>Emboss filter</item>
+        <item>Blur filter</item>
+        <item>Pencil</item>
+        <item>Rubber</item>
+        <item>Save to file</item>
+    </string-array>
+    <string-array name="handtool_helptext">
+		<item>Undo last action</item>
+        <item>Set the thickness of the line</item>
+        <item>Set the color of the background.</item>
+        <item>Set the line color.</item>
+        <item>Fill a closed drawing.</item>
+        <item>Draw the line with shadow.</item>
+        <item>Set the blur filter</item>
+        <item>Set back to normal draw.</item>
+        <item>Erase drawing.</item>
+        <item>Save paint to an image file.</item>
+    </string-array>
+    <string-array name="handtool_helpid">
+        <item>paintundo</item>
+        <item>sliderf</item>
+        <item>paintpalette1</item>
+        <item>paintpalette2</item>
+        <item>fill</item>
+        <item>emboss</item>
+        <item>blur</item>
+        <item>paint</item>
+        <item>erase</item>
+        <item>paintsave</item>
+    </string-array>
+
+</resources>

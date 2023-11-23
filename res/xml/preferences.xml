@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com"
+    android:key="preference_screen" >
+
+    <PreferenceCategory
+        android:key="application_category"
+        android:title="Application" >
+        <com.robobunny.SeekBarPreference
+            android:defaultValue="80"
+            android:key="tileSize"
+            android:max="256"
+            android:summary="Set size of background tiles."
+            android:title="Tile size"
+            robobunny:interval="8"
+            robobunny:min="32" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="showLabel"
+            android:summary="Show item label under the item."
+            android:title="Show Label" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="staticBackground"
+            android:summary="Non scrollable background picture."
+            android:title="Static background" />
+        
+        <EditTextPreference
+            android:name="fileName"
+            android:defaultValue=""
+            android:hint="File"
+            android:key="fileName"
+            android:maxLength="128"
+            android:summary="Note document name."
+            android:title="File name" />
+        
+        <Preference
+            android:key="save_as"
+            android:summary="Save document the given name."
+            android:title="Save document as" />
+                
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="display_category"
+        android:title="Display" >
+        <com.robobunny.SeekBarPreference
+            android:defaultValue="4"
+            android:key="papersSizeX"
+            android:max="20"
+            android:summary="Set width of the paper."
+            android:title="Paper width"
+            robobunny:interval="1"
+            robobunny:min="2" />
+        <com.robobunny.SeekBarPreference
+            android:defaultValue="4"
+            android:key="paperSizeY"
+            android:max="20"
+            android:summary="Set height of the paper."
+            android:title="Paper height"
+            robobunny:interval="1"
+            robobunny:min="2" />
+        <com.robobunny.SeekBarPreference
+            android:defaultValue="1"
+            android:key="roundPos"
+            android:max="100"
+            android:summary="Swap to postion interval."
+            android:title="Position swapping"
+            robobunny:interval="1"
+            robobunny:min="1" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="network_category"
+        android:title="Network" >
+        <EditTextPreference
+            android:name="userName"
+            android:defaultValue=""
+            android:hint="User"
+            android:key="userName"
+            android:maxLength="10"
+            android:summary="Your nick name in partner list."
+            android:title="User name" />
+        <EditTextPreference
+            android:name="server"
+            android:defaultValue="www.landroo.dynu.com"
+            android:key="server"
+            android:summary="The address of the server."
+            android:title="Server" />
+
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/intervalnames"
+            android:entryValues="@array/intervalvalues"
+            android:key="interval"
+            android:summary="Time interval is secounds for checking partners"
+            android:title="Polling interval" >
+        </ListPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
